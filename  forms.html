@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="кг">
+<head>
+	<title>forms</title>
+</head>
+<body>
+	<h2>Отправка заявки на конференцию</h2><br>
+
+	<h4>Основные данные:</h4><br>
+
+	<h6>*Фамилия, имя. отчество</h6><br>
+	<form>
+		<input type="text" required="required" size="30">
+		<br>
+
+		<h6>Дата рождения:</h6><br>
+		<input type="text" size="15">
+		<br>
+
+		<h6>Пол</h6><br>
+		<input type="radio" name="пол" >&nbsp;мужской
+		<input type="radio" name="пол" >&nbsp;женский
+		<br>
+
+		<h4>Данные для создания личного кабинета</h4><br>
+
+		<h6>*Адрес электронной почты:</h6><br>
+		<input type="email" required="required" size="30">
+		<br>
+
+		<h6>*Пароль для создания личного кабинета:</h6><br>
+		<input type="password" required="required" size="30">
+		<br>
+
+		<h6>*Подтверждение пароля:</h6><br>
+		<input type="password" required="required" size="30">
+		<br>
+
+		<h4>Материалы для конференции</h4<br>
+
+		<h6>*Тема доклада:</h6><br>
+		<input type="text" required="required" size="30">
+		<br>
+
+		<h6>*Тезисы доклада(не более 1000 символов):</h6><br>
+		<textarea required="required" cols="30" rows="20"></textarea>
+		<br>
+
+		<h6>Файл презентации:</h6><br>
+		<input type="file">
+		<br>
+
+		<h4>Дополнительные опции</h4><br>
+
+		<input type="checkbox" id="hotel">&nbsp;<label for = "hotel">Проживание в отеле</label><br>
+		<input type="checkbox" id="breakfast" name="" >&nbsp;<label for="breakfast">Завтрак</label><br>
+		<input type="checkbox" id="lunch" name="" >&nbsp;<label for="lunch">Обед</label><br>
+		<input type="checkbox" id="supper" name="" >&nbsp;<label for="supper">Ужин</label><br>
+
+		<hr><br>
+		<input type="submit" value="Отправить">
+		<hr>
+
+		<small>*Поля, помеченные голочкой, обязательны для заполнения</small>
+	</form>
+
+
+
+
+</body>
+</html>
